@@ -1,0 +1,28 @@
+### Create a new task
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Express",
+  "description": "Study Express.js routing and middleware",
+  "dueDate": "2025-06-10",
+  "priority": "high"
+}
+
+### Get all tasks
+GET http://localhost:3000/api/tasks
+
+### Get a task by ID (replace ID with real one)
+GET http://localhost:3000/api/tasks/REPLACE_WITH_ID
+
+### Update a task
+PUT http://localhost:3000/api/tasks/REPLACE_WITH_ID
+Content-Type: application/json
+
+{
+  "title": "Updated Task",
+  "priority": "medium"
+}
+
+### Delete a task
+DELETE http://localhost:3000/api/tasks/REPLACE_WITH_ID
